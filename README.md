@@ -18,7 +18,7 @@ A practical, production-focused engineering sprint covering core ML math, data p
 | :---: | :---: | :--- | :--- | :---: |
 | Week 1 | Day 01 | Vectors & Dot Product | Vector representations, element-wise math, and dot product | Done |
 | | Day 02 | Matrices & Transformations | Matrix operations, dot products, and feature transformations | Done |
-| | Day 03 | Vector Norms & Distance | Euclidean distance, Manhattan distance, and cosine similarity | In Progress |
+| | Day 03 | Vector Norms & Distance | Euclidean distance, Manhattan distance, and cosine similarity | Done |
 | | Day 04 | Matrix Inversion & Solvers | Determinants, inverse matrices, and systems of linear equations | Pending |
 | | Day 05 | Eigenvalues & Eigenvectors | Conceptual foundations for dimensionality reduction (PCA) | Pending |
 | | Day 06 | Probability Foundations | Bayes Theorem, conditional probability, and distributions | Pending |
