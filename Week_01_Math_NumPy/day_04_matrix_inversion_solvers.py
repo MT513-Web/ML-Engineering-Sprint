@@ -52,7 +52,7 @@ A_inv = np.linalg.inv(A)
 weights_inv = A_inv @ B
 
 # Method 2: Recommended Numerical Solver (Faster & Numerically Stable)
-weights_solve = np.linalg.solve(A, B)
+weights_solve = np.linalg.solve(A, B) 
 
 print("Inverse of Matrix A (A^-1):\n", A_inv)
 print("\nCalculated Weights (via Inverse @ B):\n", weights_inv)
