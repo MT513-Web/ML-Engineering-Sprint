@@ -16,16 +16,21 @@ A practical, production-focused engineering sprint covering core ML math, data p
 
 | Week | Day | Focus Topic | Key Deliverables | Status |
 | :---: | :---: | :--- | :--- | :---: |
-| Week 1 | Day 01 | Vectors & Dot Product | Vector representations, element-wise math, and dot product | Done |
+| **Week 1** | Day 01 | Vectors & Dot Product | Vector representations, element-wise math, and dot product | Done |
 | | Day 02 | Matrices & Transformations | Matrix operations, dot products, and feature transformations | Done |
 | | Day 03 | Vector Norms & Distance | Euclidean distance, Manhattan distance, and cosine similarity | Done |
 | | Day 04 | Matrix Inversion & Solvers | Determinants, inverse matrices, and systems of linear equations | Done |
 | | Day 05 | Eigenvalues & Eigenvectors | Conceptual foundations for dimensionality reduction (PCA) | Done |
 | | Day 06 | Probability Foundations | Bayes Theorem, conditional probability, and distributions | Done |
 | | Day 07 | Project: Math Engine | Comprehensive math and vector processing library | Done |
-| Week 2 | Day 08-13 | Data Pipelines & Analytics | Pandas, NumPy optimization, EDA, and data preparation | Pending |
-| | Day 14 | Project: Streamlit Dashboard | Interactive data exploration and analytics application | Pending |
-| Week 3 | Day 15-20 | Applied Machine Learning | Supervised learning, classification, regression, and metrics | Pending |
+| **Week 2** | Day 08 | Production Pandas & Vectorization | Vectorized operations, memory profiling, and high-performance filtering | Done |
+| | Day 09 | Data Cleaning & Missing Imputation | Handling MCAR/MAR patterns, robust imputation, and format sanitization | Pending |
+| | Day 10 | Outlier Detection & Robust Scaling | IQR, Z-score thresholds, RobustScaler, and distribution normalization | Pending |
+| | Day 11 | Feature Engineering & Encodings | One-Hot, frequency encoding, cyclical datetime signals, and feature crosses | Pending |
+| | Day 12 | GroupBy Aggregations & Analytics | Pivot tables, rolling window metrics, multi-index aggregations, and joins | Pending |
+| | Day 13 | Automated Data Pipeline Class | Modular OOP pipeline architecture, validation, error handling, and logging | Pending |
+| | Day 14 | Project: Streamlit Analytics Dashboard | Interactive customer intelligence dashboard with cached data exploration | Pending |
+| **Week 3** | Day 15-20 | Applied Machine Learning | Supervised learning, classification, regression, and metrics | Pending |
 | | Day 21 | Project: End-to-End Pipeline | Full ML inference and prediction service | Pending |
 | Week 4 | Day 22-26 | Advanced AI & Embeddings | Text embeddings, vector indexing, and retrieval logic | Pending |
 | | Day 27 | Capstone: RAG Assistant | Production-ready Document Assistant with semantic search | Pending |
