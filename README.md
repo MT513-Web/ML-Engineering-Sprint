@@ -25,7 +25,7 @@ A practical, production-focused engineering sprint covering core ML math, data p
 | | Day 07 | Project: Math Engine | Comprehensive math and vector processing library | Done |
 | **Week 2** | Day 08 | Production Pandas & Vectorization | Vectorized operations, memory profiling, and high-performance filtering | Done |
 | | Day 09 | Data Cleaning & Missing Imputation | Handling MCAR/MAR patterns, robust imputation, and format sanitization | Done |
-| | Day 10 | Outlier Detection & Robust Scaling | IQR, Z-score thresholds, RobustScaler, and distribution normalization | Pending |
+| | Day 10 | Outlier Detection & Robust Scaling | IQR, Z-score thresholds, RobustScaler, and distribution normalization | Done |
 | | Day 11 | Feature Engineering & Encodings | One-Hot, frequency encoding, cyclical datetime signals, and feature crosses | Pending |
 | | Day 12 | GroupBy Aggregations & Analytics | Pivot tables, rolling window metrics, multi-index aggregations, and joins | Pending |
 | | Day 13 | Automated Data Pipeline Class | Modular OOP pipeline architecture, validation, error handling, and logging | Pending |
