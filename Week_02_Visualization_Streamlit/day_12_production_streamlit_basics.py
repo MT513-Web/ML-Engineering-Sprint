@@ -86,7 +86,9 @@ st.subheader("📋 Filtered Transactions Data")
 st.dataframe(filtered_df, use_container_width=True)
 
 
-
+# to run this dashboard
+# cd D:\Projects\ML_Engineering_Sprint\Week_02_Visualization_Streamlit
+# streamlit run day_12_production_streamlit_basics.py
 
 
 
