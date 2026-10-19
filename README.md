@@ -29,7 +29,7 @@ A practical, production-focused engineering sprint covering core ML math, data p
 | | Day 11 | Feature Engineering & Encodings | One-Hot, frequency encoding, cyclical datetime signals, and feature crosses | Done |
 | | Day 12 | GroupBy Aggregations & Analytics | Pivot tables, rolling window metrics, multi-index aggregations, and joins | Done |
 | | Day 13 | Automated Data Pipeline Class | Modular OOP pipeline architecture, validation, error handling, and logging | Done |
-| | Day 14 | Project: Streamlit Analytics Dashboard | Interactive customer intelligence dashboard with cached data exploration | Pending |
+| | Day 14 | Project: Streamlit Analytics Dashboard | Interactive customer intelligence dashboard with cached data exploration | Done |
 | **Week 3** | Day 15-20 | Applied Machine Learning | Supervised learning, classification, regression, and metrics | Pending |
 | | Day 21 | Project: End-to-End Pipeline | Full ML inference and prediction service | Pending |
 | Week 4 | Day 22-26 | Advanced AI & Embeddings | Text embeddings, vector indexing, and retrieval logic | Pending |
