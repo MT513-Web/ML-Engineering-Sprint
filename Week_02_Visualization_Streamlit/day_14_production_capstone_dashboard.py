@@ -206,7 +206,5 @@ st.divider()
 
 
 # to run this dashboard
-"""
-cd D:\Projects\ML_Engineering_Sprint\Week_02_Visualization_Streamlit
-streamlit run day_14_production_capstone_dashboard.py
-"""
+# cd D:\Projects\ML_Engineering_Sprint\Week_02_Visualization_Streamlit
+# streamlit run day_14_production_capstone_dashboard.py
