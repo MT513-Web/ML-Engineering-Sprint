@@ -30,9 +30,14 @@ A practical, production-focused engineering sprint covering core ML math, data p
 | | Day 12 | GroupBy Aggregations & Analytics | Pivot tables, rolling window metrics, multi-index aggregations, and joins | Done |
 | | Day 13 | Automated Data Pipeline Class | Modular OOP pipeline architecture, validation, error handling, and logging | Done |
 | | Day 14 | Project: Streamlit Analytics Dashboard | Interactive customer intelligence dashboard with cached data exploration | Done |
-| **Week 3** | Day 15-20 | Applied Machine Learning | Supervised learning, classification, regression, and metrics | Pending |
-| | Day 21 | Project: End-to-End Pipeline | Full ML inference and prediction service | Pending |
-| Week 4 | Day 22-26 | Advanced AI & Embeddings | Text embeddings, vector indexing, and retrieval logic | Pending |
+| **Week 3** | Day 15 | ML Workflow & Regressors | Supervised vs Unsupervised, Train/Test Split, Linear & Ridge Regression | In Progress |
+|        | Day 16 | Classification Algorithms | Logistic Regression, Decision Trees, Random Forest & Evaluation Metrics | Pending |
+|        | Day 17 | Model Evaluation & Cross-Validation | K-Fold CV, Precision, Recall, F1-Score, ROC-AUC Curves | Pending |
+|        | Day 18 | Hyperparameter Tuning & Pipelines | GridSearchCV, RandomizedSearchCV, Scikit-Learn Pipeline & ColumnTransformer | Pending |
+|        | Day 19 | Unsupervised Learning | K-Means Clustering, PCA Dimensionality Reduction | Pending |
+|        | Day 20 | Model Persistence & API Serving | Model Export (Joblib/Pickle), FastAPI Endpoint for Inference | Pending |
+|        | Day 21 | End-to-End ML Production Project | Predictive ML Web Service with Streamlit & Model Pipeline | Pending |
+| **Week 4** | Day 22-26 | Advanced AI & Embeddings | Text embeddings, vector indexing, and retrieval logic | Pending |
 | | Day 27 | Capstone: RAG Assistant | Production-ready Document Assistant with semantic search | Pending |
 
 ---
