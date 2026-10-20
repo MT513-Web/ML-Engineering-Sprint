@@ -30,7 +30,7 @@ A practical, production-focused engineering sprint covering core ML math, data p
 | | Day 12 | GroupBy Aggregations & Analytics | Pivot tables, rolling window metrics, multi-index aggregations, and joins | Done |
 | | Day 13 | Automated Data Pipeline Class | Modular OOP pipeline architecture, validation, error handling, and logging | Done |
 | | Day 14 | Project: Streamlit Analytics Dashboard | Interactive customer intelligence dashboard with cached data exploration | Done |
-| **Week 3** | Day 15 | ML Workflow & Regressors | Supervised vs Unsupervised, Train/Test Split, Linear & Ridge Regression | In Progress |
+| **Week 3** | Day 15 | ML Workflow & Regressors | Supervised vs Unsupervised, Train/Test Split, Linear & Ridge Regression | Done |
 |        | Day 16 | Classification Algorithms | Logistic Regression, Decision Trees, Random Forest & Evaluation Metrics | Pending |
 |        | Day 17 | Model Evaluation & Cross-Validation | K-Fold CV, Precision, Recall, F1-Score, ROC-AUC Curves | Pending |
 |        | Day 18 | Hyperparameter Tuning & Pipelines | GridSearchCV, RandomizedSearchCV, Scikit-Learn Pipeline & ColumnTransformer | Pending |
