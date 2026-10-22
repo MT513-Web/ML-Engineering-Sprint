@@ -32,7 +32,7 @@ A practical, production-focused engineering sprint covering core ML math, data p
 | | Day 14 | Project: Streamlit Analytics Dashboard | Interactive customer intelligence dashboard with cached data exploration | Done |
 | **Week 3** | Day 15 | ML Workflow & Regressors | Supervised vs Unsupervised, Train/Test Split, Linear & Ridge Regression | Done |
 |        | Day 16 | Classification Algorithms | Logistic Regression, Decision Trees, Random Forest & Evaluation Metrics | Done |
-|        | Day 17 | Model Evaluation & Cross-Validation | K-Fold CV, Precision, Recall, F1-Score, ROC-AUC Curves | Pending |
+|        | Day 17 | Model Evaluation & Cross-Validation | K-Fold CV, Precision, Recall, F1-Score, ROC-AUC Curves | Done |
 |        | Day 18 | Hyperparameter Tuning & Pipelines | GridSearchCV, RandomizedSearchCV, Scikit-Learn Pipeline & ColumnTransformer | Pending |
 |        | Day 19 | Unsupervised Learning | K-Means Clustering, PCA Dimensionality Reduction | Pending |
 |        | Day 20 | Model Persistence & API Serving | Model Export (Joblib/Pickle), FastAPI Endpoint for Inference | Pending |
