@@ -25,9 +25,9 @@ purchase_frequency = np.random.randint(1, 50, n_samples) # feature 3: total orde
 
 # Combine unlabelled features into a single Pandas DataFrame
 df = pd.DataFrame({
-    'annual_income_k': annual_income_k,                # input feature 1
-    'spending_score': spending_score,                  # input feature 2
-    'purchase_frequency': purchase_frequency           # input feature 3
+    'annual_income_k': annual_income_k,                
+    'spending_score': spending_score,                  
+    'purchase_frequency': purchase_frequency           
 })
 
 print("\n" + "="*70)
@@ -38,8 +38,8 @@ print("-" * 70 + "\n")
 
 # ---- 2. Feature Scaling (Critical step for Distance-Based Models) ----
 # K-Means calculates Euclidean distance; features with large scales would dominate the clusters
-scaler = StandardScaler()                              # initialize standard scaler instance
-X_scaled = scaler.fit_transform(df)                    # scale features to standard normal distribution (Z-score)
+scaler = StandardScaler()                               # initialize standard scaler instance
+X_scaled = scaler.fit_transform(df)                     # scale features to standard normal distribution (Z-score)
 
 # ---- 3. K-Means Clustering Implementation ----
 # We group customers into 3 behavioral segments (K = 3)
@@ -55,7 +55,7 @@ print("-" * 70)
 # Calculate average feature values per cluster to understand business personas
 cluster_profile = df.groupby('Cluster_Label').mean().round(2)
 print("Discovered Customer Behavioral Personas (Mean Values):")
-print(cluster_profile)                                 # cluster centers profiling table
+print(cluster_profile)                                    # cluster centers profiling table
 print("-" * 70 + "\n")
 
 # ---- 4. PCA (Principal Component Analysis) Dimensionality Reduction ----
@@ -64,8 +64,8 @@ pca = PCA(n_components=2, random_state=42)                # initialize PCA to re
 X_pca = pca.fit_transform(X_scaled)                       # compute principal components transformation
 
 # Store PCA outputs into dataframe for easy inspection
-df['PC1'] = X_pca[:, 0]                                # captures maximum variance
-df['PC2'] = X_pca[:, 1]                                # captures second most variance
+df['PC1'] = X_pca[:, 0]                                   # captures maximum variance
+df['PC2'] = X_pca[:, 1]                                   # captures second most variance
 
 print("  PCA DIMENSIONALITY REDUCTION SUMMARY")
 print("="*70)
@@ -75,14 +75,5 @@ print("-" * 70)
 print("Sample Compressed 2D Representation (Top 5 rows):")
 print(df[['annual_income_k', 'spending_score', 'purchase_frequency', 'PC1', 'PC2', 'Cluster_Label']].head())
 print("="*70 + "\n")
-
-
-
-
-
-
-
-
-
 
 
