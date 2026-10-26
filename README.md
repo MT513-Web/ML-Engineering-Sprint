@@ -36,7 +36,7 @@ A practical, production-focused engineering sprint covering core ML math, data p
 |        | Day 18 | Hyperparameter Tuning & Pipelines | GridSearchCV, RandomizedSearchCV, Scikit-Learn Pipeline & ColumnTransformer | Done |
 |        | Day 19 | Unsupervised Learning | K-Means Clustering, PCA Dimensionality Reduction | Done |
 |        | Day 20 | Model Persistence & API Serving | Model Export (Joblib/Pickle), FastAPI Endpoint for Inference | Done |
-|        | Day 21 | End-to-End ML Production Project | Predictive ML Web Service with Streamlit & Model Pipeline | Pending |
+|        | Day 21 | End-to-End ML Production Project | Predictive ML Web Service with Streamlit & Model Pipeline | Done |
 | **Week 4** | Day 22-26 | Advanced AI & Embeddings | Text embeddings, vector indexing, and retrieval logic | Pending |
 | | Day 27 | Capstone: RAG Assistant | Production-ready Document Assistant with semantic search | Pending |
 
