@@ -40,7 +40,7 @@ A practical, production-focused engineering sprint covering core ML math, data p
 | **Week 4** | Day 22 | Data Collection & Text Preprocessing | News dataset loading, cleaning, lowercase, punctuation & stopwords removal | Done |
 | | Day 23 | Feature Extraction & Model Training | TF-IDF Vectorization, Logistic Regression / Naive Bayes training | Done |
 | | Day 24 | Model Evaluation & Persistence | Accuracy, Confusion Matrix, model saving via Joblib | Done |
-| | Day 25 | Streamlit Web App & Deployment | Interactive UI for real-time fake news detection | Pending |
+| | Day 25 | Streamlit Web App & Deployment | Interactive UI for real-time fake news detection | In Progress |
 
 ---
 
