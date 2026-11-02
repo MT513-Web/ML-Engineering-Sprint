@@ -42,6 +42,8 @@ def train_and_evaluate_models():
         "Support Vector Machine (SVM)": LinearSVC()
     }
     
+    all_metrics = {}
+    
     # loop through each model, train it, and print evaluation metrics
     for name, model in models.items():
         print(f"~~~ Training {name} ~~~")
@@ -55,6 +57,13 @@ def train_and_evaluate_models():
         print(f"Accuracy: {acc * 100:.2f}%")
         print("Classification Report:")
         print(classification_report(y_test, y_pred))
+        
+        # save evaluation metrics
+        all_metrics[name] = {
+            "accuracy" : accuracy_score(y_test, y_test),
+            "report": classification_report(y_test, y_pred, output_dict=True)
+        }
+        joblib.dump(all_metrics, 'model_metrics.pkl')
         
         # save the best performing model (SVM) and vectorizer for deployment
         joblib.dump(models["Support Vector Machine (SVM)"], 'fake_news_model.pkl') 

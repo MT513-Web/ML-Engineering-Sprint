@@ -25,21 +25,25 @@ st.write("Enter a news article text below to check whether it is **Real** or **F
 def load_saved_assets():
     load_model = joblib.load('fake_news_model.pkl')
     loaded_vectorizer = joblib.load('tfidf_vectorizer.pkl')
-    return load_model, loaded_vectorizer
+    loaded_metrics = joblib.load("model_metrics.pkl")
+    return load_model, loaded_vectorizer, loaded_metrics
 
 # call the function to store model and vectorizer in variables
-model, vectorizer = load_saved_assets()
+model, vectorizer, model_metrics = load_saved_assets()
 
-# create a text area widget for user to input or paste news article text
-news_input = st.text_area(
-    "Paste News Article Text Here:",
-    placeholder="Type or paste news article content here...",
-    height=150
-)
+# create tabs for 1. prediction and 2. model evaluation
+tab1, tab2, = st.tabs(["🔍 News Prediction", "📊 Model Evaluation & Comparison"])
 
-# creat a prediction button 
-if st.button("Check News"):
-    if news_input.strip == "":
+with tab1:
+    # create a text area widget for user to input or paste news article text
+    news_input = st.text_area(
+        "Paste News Article Text Here:",
+        placeholder="Type or paste news article content here...",
+        height=150,
+    )
+    # creat a prediction button 
+    if st.button("Check News"):
+     if news_input.strip() == "":
         st.warning("Please enter some news text before checking.")
     else:                                         # process the input text and make prediction
         # transform the input text using our saved TF-IDF vectorizer
@@ -50,6 +54,34 @@ if st.button("Check News"):
         
         # display the result on the web app UI
         st.subheader("Prediction Result:")
+        if prediction[0] == 1:
+            st.success("🟢 This news is likely **REAL**.")
+        else:
+            st.error("🔴 This news is likely **FAKE**.")
+            
+    with tab2:
+        st.subheader("Model Performance & Evaluation Metrics")
+        st.write(
+            "Here is the performance comparison of all trained machine learning"
+      " models:"
+        )
+        
+        # display metrics for each model
+        for model_name, data in model_metrics.items():
+            st.markdown(f"### 🤖 {model_name}")
+            st.metric(label="Accuracy", value=f"{data['accuracy'] * 100:.2f}%")
+            
+            # show classification report as a table/dataframe
+            import pandas as pd
+            
+            report_df = pd.DataFrame(data["report"]).transpose()
+            st.dataframe(report_df)
+            st.divider()
+            
+        
+        
+        
+        
         
         # since our dataset labels were binary (e.g. 1 for real/true, 0 for fake or vice versa)
         # let's check how your model outputs the label and display it clearly
