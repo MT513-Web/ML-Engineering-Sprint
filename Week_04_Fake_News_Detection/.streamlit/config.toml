@@ -1,0 +1,10 @@
+
+# replaces the default dark mode with a soft, warm light theme
+
+[theme]
+base = "light"
+primaryColor = "#5E4B3C"
+backgroundColor = "#b7a07f"
+secondaryBackgroundColor = "#D9CBB5"
+textColor = "#3D3A4B"
+font = "sans serif"
