@@ -80,3 +80,29 @@ streamlit run app.py
 ```
 
 ## Project Structure
+
+## Project Structure
+
+```
+app.py                      Streamlit app (tabs and logic)
+style.py                    Colours and CSS
+charts.py                   Graphs
+samples.py                  Sample articles
+day_22_preprocessing.py     Loading and cleaning
+day_23_model_training.py    Training and evaluation
+.streamlit/config.toml      Theme
+*.pkl                       Saved model, vectorizer and results
+```
+
+## Limitations
+
+- The dataset is mostly US political news from 2016-2017, so results on other
+  topics, sources, languages or short headlines may be weaker.
+- High scores on this dataset do not mean the model is a reliable fake news
+  detector in general.
+- The model learns writing style, not facts.
+
+## Credits
+
+Virtual University of Pakistan, Information Retrieval and Machine Learning project.
+Supervisor: Umra Naeem.
