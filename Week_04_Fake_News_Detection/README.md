@@ -81,8 +81,6 @@ streamlit run app.py
 
 ## Project Structure
 
-## Project Structure
-
 ```
 app.py                      Streamlit app (tabs and logic)
 style.py                    Colours and CSS
