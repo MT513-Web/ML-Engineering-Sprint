@@ -3,7 +3,7 @@
 An end-to-end machine learning project focusing on customer churn risk evaluation, Scikit-Learn pipelines, production-grade API deployment using FastAPI, and containerization with Docker.
 
 ## Live Demo
-* **Streamlit Community Cloud:** [Customer Churn Prediction Engine](https://customer-churn-web-app-debn7cekcrda8mwprjrova.streamlit.app)
+* **Streamlit Community Cloud:** [Customer Churn Prediction Engine](https://customer-churn-web-app-debn7cekcrda8mwprjtova.streamlit.app/app)
 
 ## Key Features & Capabilities
 1. **Single Prediction Tab:** Interactive evaluation of individual customer churn risk based on tenure, monthly charges, and support calls with visual scoring.
