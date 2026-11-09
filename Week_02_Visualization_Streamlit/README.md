@@ -6,11 +6,11 @@ An interactive, production-grade Streamlit web application designed for explorat
 * **Streamlit Community Cloud:** [E-Commerce Analytics Hub](https://ecommerceanalyticsdashboard-2dqe3dbtdwxveq5h4bugdx.streamlit.app)
 
 ## Key Features & Capabilities
-1. **Executive Filter Controls:** Real-time sidebar filtering by Customer City (Faisalabad, Islamabad, Karachi, Lahore, Rawalpindi) and Product Category (Beauty, Electronics, Fashion, Home & Kitchen)[cite: 36, 37].
-2. **Dynamic KPI Metrics:** Automatic calculation of Total Revenue (PKR), Total Orders, and Average Order Value (AOV) based on active filters[cite: 36, 37, 38].
-3. **Distributions & Skewness Analysis:** Visual diagnosis and skewness tracking for Customer Age and Order Value distributions[cite: 36].
-4. **Outlier Detection (IQR):** Tukey's Fence thresholding and boxplot visualization to identify anomalous transaction values and outlier counts[cite: 37].
-5. **Correlation & Data Grid:** Interactive Pearson Correlation Heatmap for numeric features (age, items purchased, order value) alongside a dynamic transaction data view[cite: 38].
+1. **Executive Filter Controls:** Real-time sidebar filtering by Customer City (Faisalabad, Islamabad, Karachi, Lahore, Rawalpindi) and Product Category (Beauty, Electronics, Fashion, Home & Kitchen).
+2. **Dynamic KPI Metrics:** Automatic calculation of Total Revenue (PKR), Total Orders, and Average Order Value (AOV) based on active filters.
+3. **Distributions & Skewness Analysis:** Visual diagnosis and skewness tracking for Customer Age and Order Value distributions.
+4. **Outlier Detection (IQR):** Tukey's Fence thresholding and boxplot visualization to identify anomalous transaction values and outlier counts.
+5. **Correlation & Data Grid:** Interactive Pearson Correlation Heatmap for numeric features (age, items purchased, order value) alongside a dynamic transaction data view.
 
 ## Project Structure
 * `day_08_production_pandas_vectorization.py` - High-performance vectorized pandas pipeline
