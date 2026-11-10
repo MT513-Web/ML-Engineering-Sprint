@@ -1,6 +1,6 @@
 # Machine Learning Engineering Sprint
 
-Welcome to my machine learning and data engineering sprint repository! This project chronicles my journey through core ML mathematics, advanced data pipelines, supervised/unsupervised learning, and deploying production-grade web applications.
+Welcome to my machine learning and data engineering sprint repository! This project chronicles my journey through core ML mathematics, advanced data pipelines, supervised/unsupervised learning, and deployed Streamlit web apps.
 
 ## Sprint Overview
 
